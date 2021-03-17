@@ -29,8 +29,13 @@ class _IniciandoState extends State<Iniciando> {
           body: Form(
             //key: _formKey,
             child: Column(
+              /*
+              mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch
+              */ 
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+                Center(child: Text("Ejemplo De Suma",style: TextStyle(fontSize: 24),)),
                 TextFormField(
                   decoration:
                       InputDecoration(hintText: 'Please enter number 1'),
