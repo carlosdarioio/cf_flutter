@@ -1,4 +1,6 @@
+import 'package:cf_flutter/SacandoParOImpar.dart';
 import 'package:cf_flutter/iniciando.dart';
+import 'package:cf_flutter/services/parimpar_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -14,13 +16,15 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => new UsuarioService()),        
+        ChangeNotifierProvider(create: (_) => new ParOImparService()),        
       ],
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Practicando Flutter',
-          initialRoute: 'Iniciando',
+          initialRoute: 'ParOImpar',
           routes: {
             'Iniciando': (_) => Iniciando(),
+            'ParOImpar':(_)=>ParOImpar(),
           },
           theme: ThemeData(
             // Define the default brightness and colors.
