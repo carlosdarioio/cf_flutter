@@ -1,8 +1,8 @@
-import 'package:cf_flutter/iniciando.dart';
+import 'package:cf_flutter/buscarArticulos.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'services/usuario_service.dart';
+import 'services/product_service.dart';
 //Edit editando formato inicial
 
 
@@ -13,14 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => new UsuarioService()),        
+        ChangeNotifierProvider(create: (_) => new ProductService()),        
       ],
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Practicando Flutter',
-          initialRoute: 'Iniciando',
+          initialRoute: 'Articulos',
           routes: {
-            'Iniciando': (_) => Iniciando(),
+            'Articulos': (_) => BuscarArticulos(),
           },
           theme: ThemeData(
             // Define the default brightness and colors.

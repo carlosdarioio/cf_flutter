@@ -1,0 +1,63 @@
+[
+  {
+    "Name": "PHP",
+    "Oldprice": 1380,
+    "Picture": "https://4.bp.blogspot.com/-qq4Ben-HNr4/VWIQqk4Rz9I/AAAAAAAAGkE/pa7LWuJuNSo/s320/php.jpg",
+    "Price": 1200,
+    "ShortDescription": "The black IBM zBC12 has a built-in microphone and MOTION EYE camera with face-tracking technology that allows for easy communication with friends and family. And it has a built-in DVD",
+    "id": 1,
+    "sku": "COMP_CUST",
+    "stockquantity": 12
+  },
+  {
+    "Name": "Java",
+    "Oldprice": 1447.85,
+    "Picture": "https://2.bp.blogspot.com/-i67OjH_irWA/VWIcDKtFs4I/AAAAAAAAGlM/LEtk-ATv2fs/s1600/appletenhtml%2Bjava.jpg",
+    "Price": 1259,
+    "ShortDescription": "Digital Storm Vanquish 3 Desktop PC",
+    "id": 2,
+    "sku": "DS_VA3_PC",
+    "stockquantity": 15
+  },
+
+  {
+    "Name": "Javascript",
+    "Oldprice": 0,
+    "Picture": "https://4.bp.blogspot.com/-JqV1bWVZvlE/VWIcNn6W0uI/AAAAAAAAGlU/Pc0yAP8-m9g/s1600/appletenhtml%2Bjavascript.jpg",
+    "Price": 1800.58,
+    "ShortDescription": "A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.",
+    "id": 4,
+    "sku": "AP_MBP_13",
+    "stockquantity": 1000
+  },
+  {
+    "Name": "Python",
+    "Oldprice": 1725,
+    "Picture": "https://1.bp.blogspot.com/-tFkFIjiegog/VWIb5S9qK3I/AAAAAAAAGlI/mGLyvu1nhTE2t6DkYju_02ApFFMqlrNkgCK4BGAsYHg/appletenhtml%2Bpython.jpg",
+    "Price": 1500,
+    "ShortDescription": "Laptop Asus N551JK Intel Core i7-4710HQ 2.5 GHz, RAM 16GB, HDD 1TB, Video NVidia GTX 850M 4GB, BluRay, 15.6, Full HD, Win 8.1",
+    "id": 5,
+    "sku": "AS_551_LP",
+    "stockquantity": 100
+  },
+  {
+    "Name": "All",
+    "Oldprice": 1828.5,
+    "Picture": "https://1.bp.blogspot.com/-z_zeLqXF5L4/WYfsoSCyApI/AAAAAAAAHts/En5nPmFE5DEo75gXPaPd6B9_6ooWLgfLgCPcBGAYYCw/s400/appletenhtml%2Bprinncipal.jpg",
+    "Price": 1590,
+    "ShortDescription": "Samsung Series 9 NP900X4C-A06US 15-Inch Ultrabook (1.70 GHz Intel Core i5-3317U Processor, 8GB DDR3, 128GB SSD, Windows 8) Ash Black",
+    "id": 6,
+    "sku": "SM_900_PU",
+    "stockquantity": 10
+  },
+  {
+    "Name": "Html",
+    "Oldprice": 1552.5,
+    "Picture": "https://i.ytimg.com/vi/XmipJ2AEElk/hqdefault.jpg",
+    "Price": 1350,
+    "ShortDescription": "HP Spectre XT Pro UltraBook / Intel Core i5-2467M / 13.3 / 4GB / 128GB / Windows 7 Professional / Laptop",
+    "id": 7,
+    "sku": "HP_SPX_UB",
+    "stockquantity": 1
+  }
+]
