@@ -1,4 +1,5 @@
-import 'package:cf_flutter/iniciando.dart';
+import 'package:cf_flutter/home.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -18,9 +19,9 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Practicando Flutter',
-          initialRoute: 'Iniciando',
+          initialRoute: 'home',
           routes: {
-            'Iniciando': (_) => Iniciando(),
+            'home': (_) => Home(),
           },
           theme: ThemeData(
             // Define the default brightness and colors.
